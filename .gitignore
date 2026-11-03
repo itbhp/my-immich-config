@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Immich data (should never land here, but belt-and-suspenders)
+postgres/
+library/
+upload/
+thumbs/
+encoded-video/
+profile/
+backups/
+
+# macOS
+.DS_Store

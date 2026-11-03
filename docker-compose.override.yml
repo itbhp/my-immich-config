@@ -1,0 +1,5 @@
+services:
+  immich-server:
+    volumes:
+      - ./thumbs:/data/thumbs
+      - ./encoded-video:/data/encoded-video
